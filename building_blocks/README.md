@@ -3,10 +3,10 @@
 SLH-DSA itself is a composition of existing building-blocks. In dependency order: (where "->" means "is used as part of")
 
 ```
-WOTS+ -> XMSS -> FORS -> hypertree (?)
+Hashing -> WOTS+ -> XMSS -> FORS -> hypertree (?)
 ```
 
-(not really certain about the latter two, a more correct dependency graph may not be a straight line)
+(not really certain about the latter two yet, and a more correct dependency graph may not be a straight line)
 
 Spec-wise, SLH-DSA is self-contained but a bit terse. For learning purposes, I think I'm better off studying the individual components from other sources.
 
